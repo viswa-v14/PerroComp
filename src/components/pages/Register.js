@@ -1,6 +1,5 @@
 import React from "react";
 import './Style.css';
-import './connect.php';
 
 function Register(){
     return(
@@ -14,7 +13,7 @@ function Form(){
     return(
         <>
         <div >
-            <form className="loginform" action="connect.php" method="post">
+            <form className="loginform" >
                 <h1>Register</h1>
                 <label htmlFor="email" id="email">Email : <input type="email" name="email"/></label>
                 <label htmlFor="phone" id="phone">Mobile Number : <input type="tel" name="mobileNumber"/></label>

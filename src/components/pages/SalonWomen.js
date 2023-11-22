@@ -21,7 +21,7 @@ function NavBar(){
       <>
       <div className="nav">
             <div className='brand'>
-                    <a href='/'><img src={require('./logo.png')} /></a>
+                    <a href='/'><img src={require('../images/logo.png')} /></a>
             </div>
                 <ul className='items'>
                   <li><a href='/'>Home</a></li>
@@ -43,7 +43,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -57,7 +57,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -71,7 +71,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -85,7 +85,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -99,7 +99,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -113,7 +113,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>

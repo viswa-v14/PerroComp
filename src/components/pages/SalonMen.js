@@ -6,36 +6,19 @@ import {Container,
         Row,
         Col
 } from 'react-bootstrap'
+import NavBar from './NavBar';
+import Footer from './Footer';
 
 function SalonMen(){
     return(
         <>
         <NavBar/>
         <List/>
-        <Privacy/>
+        <Footer/>
         </>
     )
 }
 
-function NavBar(){
-    return(
-      <>
-      <div className="nav">
-            <div className='brand'>
-                <a href='/'><img src={require('./logo.png')} /></a>              
-                </div>
-                <ul className='items'>
-                  <li><a href='/'>Home</a></li>
-                  <li><a href='/services'>Services</a></li>
-                  <li><a href='/professional'>Professional</a></li>
-                </ul>
-                <div className='login'>
-                  <a href='/login'>Login/Sign Up</a>
-                </div>
-      </div>
-      </>
-    );
-  }
 
 function List(){
     return(
@@ -44,7 +27,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -58,7 +41,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -72,7 +55,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -86,7 +69,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -100,7 +83,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -114,7 +97,7 @@ function List(){
 
             <Row className='salonrow'>
                 <Col className='saloncol' md={2}>
-                    <img className='listimg' src={require('./women.jpeg')}/>
+                    <img className='listimg' src={require('../images/women.jpeg')}/>
                 </Col>
                 <Col className='saloncol' md={6}>
                     <h3>Heading</h3>
@@ -130,16 +113,5 @@ function List(){
         </>
     )
 }
-
-function Privacy(){
-    return(
-      <>
-      <div className='footer'>
-        <p>Terms and Conditions</p>
-        <p>Copyrights</p>
-      </div>
-      </>
-    )
-  }
 
 export default SalonMen;

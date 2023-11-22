@@ -266,7 +266,9 @@
     border-radius: 1rem;
     display:flow-root;
     color: #80689d;
+    font-weight: 100;
 }
 .btn a:hover{
     color: #2c115e;
+    font-weight: bolder;
 }

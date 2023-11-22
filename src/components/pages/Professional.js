@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './Style.css';
+import NavBar from './NavBar';
 
 function Professional(){
     return(
@@ -10,26 +11,6 @@ function Professional(){
         <Body />
         </>
     )
-}
-
-function NavBar(){
-    return(
-      <>
-      <div className="nav">
-            <div className='brand'>
-                <a href='/'><img src={require('./logo.png')} /></a>
-            </div>
-              <ul className='items'>
-                <li><a href='/'>Home</a></li>
-                <li><a href='/services'>Services</a></li>
-                <li><a href='/professional'>Professional</a></li>
-              </ul>
-            <div className='login'>
-                <a href='/login'>Login/Sign Up</a>
-            </div>
-      </div>
-      </>
-    );
 }
 
 function Body(){
