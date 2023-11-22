@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/PerroComp/static/css/main.006605d4.css",
+    "main.js": "/PerroComp/static/js/main.b44874fb.js",
+    "static/js/787.b851953c.chunk.js": "/PerroComp/static/js/787.b851953c.chunk.js",
+    "static/media/1.png": "/PerroComp/static/media/1.a4af429bcb7338c830c3.png",
+    "static/media/4.png": "/PerroComp/static/media/4.adfaabd16623add02825.png",
+    "static/media/2.png": "/PerroComp/static/media/2.daaa8e144f4d3f4afb01.png",
+    "static/media/3.png": "/PerroComp/static/media/3.aa14d705a30f337848de.png",
+    "static/media/women.jpeg": "/PerroComp/static/media/women.61e8c1fde056d4f10478.jpeg",
+    "static/media/pests.jpeg": "/PerroComp/static/media/pests.67e05fba77b4b6f329cd.jpeg",
+    "static/media/men.jpeg": "/PerroComp/static/media/men.d69b873c91fbd3b5cd4b.jpeg",
+    "static/media/cleaning.jpeg": "/PerroComp/static/media/cleaning.37461194879979f11650.jpeg",
+    "static/media/massage.jpg": "/PerroComp/static/media/massage.e4bd8cf93f0bf741f971.jpg",
+    "static/media/makeup.jpeg": "/PerroComp/static/media/makeup.5920dbadca5f44a4bc0f.jpeg",
+    "static/media/repairs.jpeg": "/PerroComp/static/media/repairs.6d74fde8e73aef5a78f4.jpeg",
+    "static/media/logo.png": "/PerroComp/static/media/logo.b86cbaee1c3595149983.png",
+    "index.html": "/PerroComp/index.html",
+    "main.006605d4.css.map": "/PerroComp/static/css/main.006605d4.css.map",
+    "main.b44874fb.js.map": "/PerroComp/static/js/main.b44874fb.js.map",
+    "787.b851953c.chunk.js.map": "/PerroComp/static/js/787.b851953c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.006605d4.css",
+    "static/js/main.b44874fb.js"
+  ]
+}
